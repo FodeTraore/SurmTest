@@ -1,6 +1,95 @@
 <footer class="footer"></footer>
 
-<script src="js/libs.js"></script>
-<script src="js/main.js"></script>
+//<script src="js/libs.js"></script>
+//<script src="js/main.js"></script>
+
+<script>
+    $( function() {
+    $( "#accordion" ).accordion();
+    });
+</script>
+
+
+
+<script>
+    function openSlideMenu(){
+        document.getElementById("side-menu").style.width="250px";
+        //document.getElementById("main").style.marginLeft="250px";
+        }
+        
+    function closeSlideMenu(){
+        document.getElementById("side-menu").style.width="0";
+        //document.getElementById("main").style.marginLeft="0";
+        }
+    </script>
+
+
+<script>
+        $(function() {
+            "use strict";
+        var $del = $('#outer');
+            
+            $del
+                .find('.tt')
+                .hide();
+                
+            $del
+                .find('.itemz')
+                .on('mouseenter mouseleave', function(){
+                    $(this).find('.tt').toggle()
+                    .css("color","white");
+                    $(this).find('.number').toggle()
+                });	
+        });
+        
+        
+        
+         
+        </script>
+        <script>   
+           
+           jQuery(document).ready(function($) {
+          $('.item1').matchHeight();
+        });
+        </script> 
+
+<script>   
+        jQuery(document).ready(function($) {
+       $('.mh').matchHeight();
+     });
+     </script>    
+    
+    <script>
+            $(".libItem").magnificPopup({
+            type: "image",
+            gallery :{
+                enabled: true
+            },removalDelay: 300,mainClass: 'mfp-fade'
+            
+            });
+            </script>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
