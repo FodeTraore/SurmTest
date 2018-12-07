@@ -13,7 +13,7 @@ gulp.task('build', ["clean"], function() {
       "html",
       "js",
       "fonts",
-      "img:watch",
+      "img",
       "libs"
      );
   });
